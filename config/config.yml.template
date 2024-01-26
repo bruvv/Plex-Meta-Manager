@@ -69,7 +69,7 @@ settings:
   ignore_ids:
   ignore_imdb_ids:
   item_refresh_delay: 0
-  playlist_sync_to_user: all
+  playlist_sync_to_users: all
   playlist_exclude_users:
   playlist_report: false
   verify_ssl: true
@@ -113,7 +113,7 @@ radarr:                          # Can be individually specified per library as 
   token: ################################
   add_missing: false
   add_existing: false
-  root_folder_path: S:/Movies
+  root_folder_path: "S:/Movies"
   monitor: true
   availability: announced
   quality_profile: HD-1080p
